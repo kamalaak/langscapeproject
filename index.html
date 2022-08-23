@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/b2e22c17bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- menu contenct starts here  -->
+    <section class="w-full">
+      <div class="menu fixed bg-emerald-50 z-20 w-full">
+        <div
+          class="container-2x1 items-center h-16 px-3 py-2 lg:h-24 flex justify-between mb-200 border border-black-200"
+        >
+          <div class="img md:w-1/6">
+            <a href="#"
+              ><img
+                class="h-10 w-20 lg:w-full overflow-auto"
+                src="https://www.langscape.com/wp-content/uploads/2019/03/logo.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="flex">
+            <ul class="lg:flex hidden flex flex-3 my-auto border-black">
+              <li class="mx-6">about us</li>
+              <li class="mx-6">contact us</li>
+              <li class="mx-6">Get quote</li>
+              <li class="mx-6">Serivce</li>
+            </ul>
+            <div class="language hidden lg:block">
+              <select
+                name="language"
+                class="p-2 rounded-full border-inherit border"
+                id="language"
+              >
+                <option class="p-5" value="English">Englsih</option>
+                <option class="p-5" value="tamil">Tamil</option>
+                <option class="p-5" value="hindi">Hindi</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- for mobile design -->
+          <div class="flex lg:hidden">
+            <div class="language flex-1 pr-5">
+              <select
+                class="py-1 rounded-full border-inherit border"
+                name="language"
+                id="language"
+              >
+                <option value="English">Englsih</option>
+                <option value="tamil">Tamil</option>
+                <option value="hindi">Hindi</option>
+              </select>
+            </div>
+            <div>
+              <button class="lg:hidden" onclick="buttontoggel()">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <ul
+                id="cringekamalesh"
+                class="lg:hidden hidden absolute right-3 top-15 w-24 text-start border-t-blue-200 mt-3 rounded bg-sky-50 border mr-3"
+              >
+                <a href=""
+                  ><li class="py-1 hover:border hover:border-b-orange-500">
+                    services
+                  </li></a
+                >
+                <a href=""
+                  ><li class="py-1 hover:border hover:border-b-orange-500">
+                    about us
+                  </li></a
+                >
+                <a href=""
+                  ><li class="py-1 hover:border hover:border-b-orange-500">
+                    contact
+                  </li></a
+                >
+                <a href=""
+                  ><li class="py-1 hover:border hover:border-b-orange-500">
+                    get quote
+                  </li></a
+                >
+                <a href=""
+                  ><li class="py-1 hover:border hover:border-b-orange-500"></li
+                ></a>
+              </ul>
+            </div>
+          </div>
+          <!-- mobile design end here  -->
+        </div>
+      </div>
+    </section>
+
+    <!-- menu contenct ends here  -->
+     <section class="back py-5 relative top-16  ">
+      <div class="flex ml-2 relative">
+        <div class="contend w-1/2 ">
+          <h3 class="text-white md:mt-0 lg:mt-12 md:text-4xl">
+            Experts in translation, localization and multilingual communication.
+          </h3>
+          <p class="hidden pr-10 sm:block  md:mb-6 lg:mt-12 text-slate-700 pt-4  lg:mt-10">
+            Langscape is fully focused on your markets. We are here to ensure
+            that your communication is a success in every segment you target.
+          </p>
+          <div class="flex  items-center md:text-lg md:mb-0 lg:text-lg text-xs absolute bottom-1 sm:bottom-4 lg:bottom-10">
+            <button class="p-2 px-4 rounded-full border bg-white text-sky-500  " >get quote</button>
+            <p class="pl-1 text-blue-50 " ><span>or</span></p class="px-1 " >
+            <a  class="pl-1 text-blue-50 " href="">get in touch</a>
+          </div>
+        </div>
+
+        <div class="w-1/2">
+          <img
+            src="https://www.langscape.com/wp-content/uploads/2019/03/banner1-img.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section> 
+    <!-- menu contend ends here  -->
+
+
+
+    <!-- what we offer starts here -->
+    <section>
+      <div class="contend bg-white relative mt-12">
+        <div class=" text-center">
+          
+          <div class=" flex-col flex items-center mt-2 ">
+            <h1 class="mt-2 text-2xl">what we offer</h1>
+            <img class="mt-2 " src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png" alt="">
+          </div>
+
+
+
+          <div class="container-2xl">
+            <div class="flex flex-col md:justify-around mx-10 md:flex-row">
+              <div class="border flex flex-col justify-center  md:w-1/2 md:justify-around  border-black-200 rounded-lg shadow-2xl mt-4  ">
+                  <img  class="md:h-80 md:w-80 md:ml-5 lg:ml-16  " src="https://www.langscape.com/wp-content/uploads/2019/03/icon-human-translation.png" alt="">
+                  <h3 class="font-lg mb-2">Human translation</h3>
+                  <p class="px-4 mb-2 text-md text-slate-600" >Translation, multilingual content development, localization, globalization and other language services.</p>
+                  <a href=""><button  class="p-2 mb-2 px-4 border rounded-full border-green-500 text-blue-800" type="button">See More</button></a>
+              </div>
+              <div class="border flex flex-col justify-center md:w-1/2  md:ml-10   border-black-200 rounded-lg shadow-2xl mt-4">
+                <img class="md:h-80 md:w-80 md:ml-5 lg:ml-16" src="https://www.langscape.com/wp-content/uploads/2019/03/icon-mtpe.png" alt="">
+                <h3 class="mb-2">Mechine Translation Post Editing</h3>
+                <p class="px-4 mb-2  text-md text-slate-600">Translate with latest AI powered machine translation engines and get the output edited and enhanced by the human expert translators.</p>
+                <a   href=""><button  class="p-2 mb-2 px-4 border rounded-full border-green-500 text-blue-800" type="button">  See More</button></a>
+              </div>
+            </div>
+    
+            <div class="flex flex-col md:justify-around mx-10 md:flex-row">
+              <div class="border flex flex-col justify-center  border-black-200 rounded-lg shadow-2xl mt-4">
+                  <img src="https://www.langscape.com/wp-content/uploads/2019/03/icon-web-app.png" alt="">
+                  <h3 class="mb-2">Web & App localization</h3>
+                  <p class="px-4 mb-2 text-slate-600">Multilingual websites, web apps and mobile apps carefully crafted by our writers, translators and engineers</p>
+                  <a href=""><button  class="p-2 mb-2 px-4 border rounded-full border-green-500 text-blue-800" type="button">See More</button></a>
+              </div>
+                 <div class="border flex flex-col justify-center md:ml-10 border-black-200 rounded-lg shadow-2xl mt-4">
+                   <img src="https://www.langscape.com/wp-content/uploads/2019/04/icon-indian-languages.png" alt="">
+                    <h3 class="mb-2">Indian Languages</h3>
+                    <p class="px-4 mb-2 text-slate-600">Translation or original content, Langscape is your reliable partner for all major Indian languages.</p>
+                     <a href=""><button class="p-2 mb-2 px-4 border rounded-full border-green-500 text-blue-800">See More</button></a>
+                  </div>
+             </div>
+           </div>
+               <div class="my-4  ">
+                  <a href=""> <button class="p-2  px-4 border rounded-full border-green-500 text-blue-800" id="view">View All</button></a>
+               </div>
+      </div>
+    </section>
+    <!-- what we offers ends here  -->
+
+
+
+    <section>
+      <div class="contend bg-blue-500">
+        <p>
+         
+        </p>
+      </div>
+    </section>
+
+    <!-- what we offer part starts here  -->
+
+    <!-- what we offer part ends here  -->
+    <script src="./js/function.js"></script>
+  </body>
+</html>
