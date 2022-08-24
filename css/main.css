@@ -17,6 +17,33 @@
 .fix{
     position:fixed;
 }
+
+/* why langscape part  */
+
+.background-image{
+background-image: url('https://www.langscape.com/wp-content/uploads/2019/03/why-langscape.jpg');
+width:100%;
+height:auto;
+background-repeat: no-repeat;
+background-size:cover; 
+
+
+}
+/* why langscape part ends here  */
+
+
  /* what we offer part starts here  */
 
  /* what we offer ends here  */
+
+
+
+ /* solution part  */
+ .some{
+    background-image: url('https://www.langscape.com/wp-content/uploads/2022/04/bg-services.jpg');
+    width:100%;
+height:auto;
+background-repeat: no-repeat;
+background-size:cover; 
+ }
+ /* solution part ends here  */
