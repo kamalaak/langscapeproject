@@ -47,3 +47,11 @@ background-repeat: no-repeat;
 background-size:cover; 
  }
  /* solution part ends here  */
+
+ .ford{
+    background-image: url('https://www.langscape.com/wp-content/uploads/2019/03/bg-clients.jpg');
+    /* width:100%;
+    height:auto;
+    background-repeat: no-repeat;
+    background-size:cover;  */
+ }

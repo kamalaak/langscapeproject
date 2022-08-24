@@ -30,16 +30,16 @@
             /></a>
           </div>
           <div class="flex">
-            <ul class="lg:flex hidden flex flex-3 my-auto border-black">
-              <li class="mx-6">about us</li>
-              <li class="mx-6">contact us</li>
-              <li class="mx-6">Get quote</li>
-              <li class="mx-6">Serivce</li>
+            <ul class="lg:flex hidden flex flex-3 my-auto items-center border-black">
+             <a href=""><li class="mx-6 font-semibold ransition ease-in-out delay-150 px-4 p-2 hover:rounded-full  hover:text-white">Services</li></a>
+             <a href=""> <li class="mx-6 font-semibold ransition ease-in-out delay-150 px-4 p-2 hover:rounded-full  hover:text-white">Solutions</li></a>
+             <a href=""> <li class="mx-6 font-semibold ransition ease-in-out delay-150 px-4 p-2 hover:rounded-full  hover:text-white">Contact Us</li></a>
+             <a href=""> <li class="mx-6 font-semibold"><span class="back p-2 px-4 rounded-full text-white">Get Quote</span></li></a>
             </ul>
             <div class="language hidden lg:block">
               <select
                 name="language"
-                class="p-2 rounded-full border-inherit border"
+                class="p-2 px-4 rounded-full bg-white font-bold  border-green-500 border"
                 id="language"
               >
                 <option class="p-5" value="English">Englsih</option>
@@ -50,10 +50,10 @@
           </div>
 
           <!-- for mobile design -->
-          <div class="flex lg:hidden">
-            <div class="language flex-1 pr-5">
+          <div class="flex items-center lg:hidden">
+            <div class="language  pr-5">
               <select
-                class="py-1 rounded-full border-inherit border"
+                class="py-1 px-2 rounded-full bg-white   border-green-500 border "
                 name="language"
                 id="language"
               >
@@ -63,35 +63,35 @@
               </select>
             </div>
             <div>
-              <button class="lg:hidden" onclick="buttontoggel()">
+              <button class="lg:hidden text-xl text-blue-300 " onclick="buttontoggel()">
                 <i class="fa-solid fa-bars"></i>
               </button>
               <ul
                 id="cringekamalesh"
-                class="lg:hidden hidden absolute right-3 top-15 w-24 text-start border-t-blue-200 mt-3 rounded bg-sky-50 border mr-3"
+                class="lg:hidden hidden absolute right-3 top-15 w-36 pl-4 border-t-blue-400 border border-t-4  mt-3 rounded bg-sky-50  mr-3"
               >
                 <a href=""
-                  ><li class="py-1 hover:border hover:border-b-orange-500">
+                  ><li class="py-1 hover:text-gray-500   hover:underline">
                     services
                   </li></a
                 >
                 <a href=""
-                  ><li class="py-1 hover:border hover:border-b-orange-500">
-                    about us
+                  ><li class="py-1 hover:text-gray-500   hover:underline">
+                   Solutions
                   </li></a
                 >
                 <a href=""
-                  ><li class="py-1 hover:border hover:border-b-orange-500">
-                    contact
+                  ><li class="py-1 hover:text-gray-500   hover:underline">
+                    Contact Us
                   </li></a
                 >
                 <a href=""
-                  ><li class="py-1 hover:border hover:border-b-orange-500">
-                    get quote
+                  ><li class="py-1  hover:text-gray-500  hover:underline">
+                    Get quote
                   </li></a
                 >
                 <a href=""
-                  ><li class="py-1 hover:border hover:border-b-orange-500"></li
+                  ><li class="py-1 hover:text-gray-500   hover:underline"></li
                 ></a>
               </ul>
             </div>
@@ -369,7 +369,38 @@
   </div>
 </section>
 <!-- solution part ends here -->
-    
+
+
+<!-- testing for now  -->
+<section>
+  <div class="brands w-full h-96">
+    <div  class=" bg-center flex flex-col items-center bg-contain bg-no-repeat h-full" style=" background-image: url('https://www.langscape.com/wp-content/uploads/2019/03/bg-clients.jpg');"> 
+      <h1 class="text-center mt-2   text-2xl">some of our clinents</h1>
+        <img class="w-1/3 mt-4 " src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png" alt="">
+    </div>
+  </div>
+</section>
+<!-- testing for now end -->
+
+
+<!-- membership part -->
+<section>
+  <div class="felx">
+    <ul>
+      <li><img src="https://www.langscape.com/wp-content/uploads/2019/04/hm-multilingual.jpg" alt=""></li>
+    </ul>
+    <ul>
+      <li>
+        <h2>
+
+          If your market is multilingual, staying monolingual just won't do!</h2>
+      </li>
+      <a href=""><button class="p-1 px-2 rounded border-white-600">Get Quote</button></a>
+    </ul>
+  </div>
+</section>
+<!-- membership end  -->
+
     <script src="./js/function.js"></script>
   </body>
 </html>
