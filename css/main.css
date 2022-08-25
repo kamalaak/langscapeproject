@@ -14,6 +14,20 @@
     
     
 }
+.ho:hover{
+    background: linear-gradient(to right,#00b7e5 0%,#00c7ca 35%,#00ee89 100%);
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(to right, rgb(0, 183, 229) 0%, rgb(0, 199, 202) 35%, rgb(0, 238, 137) 100%);
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+     justify-content: center;
+}
+
 .fix{
     position:fixed;
 }
