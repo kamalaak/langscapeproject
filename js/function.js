@@ -10,47 +10,85 @@ function buttontoggel(){
 
 
 // slide part 
-let slide = document.getElementById('slide');
-let totalslides =slide.childElementCount;
-console.log(totalslides);
-let currentvalue = 1;
+let slider = document.getElementsByClassName('slide-content');
+dots= document.getElementsByClassName('dots');
+sl = 1;
 
+function right(n){
 
+    show(sl +=n)
 
-
-
-
-function right(){
-if (currentvalue<totalslides) {
-    currentvalue++;
-    show()
-}
 };
 
 
 
-function left(){
-    if (currentvalue>1) {
-        currentvalue--;
-        show()
-    }
-    };
 
-    function show (){
-        total = document.getElementById('slide').getElementsByTagName('ul');
-        for (let index = 0; index <totalslides; index++) {
-            const element = total[index];
-            if (currentvalue === index+1) {
-                element.classList.remove('hidden')
-                
-            }else{
-                element.classList.add('hidden')
-            }
-        }
 
+show(sl)
+
+
+function bu(n){
+    show(sl = n);
+}
+
+function show (n){
+    let i;
+    for (let i = 0; i < slider.length; i++) {
+        slider[i].classList.add('hidden');
+        
     }
-setInterval(right,5000);
+    for (let i = 0; i < dots.length; i++) {
+      dots[i].classList.add('bg-gray-800')
+        
+    }
+    if (n>slider.length) {
+        sl=1;
+    }
+    if (n<1) {
+        sl = slider.length;
+    }
+   slider[sl-1].classList.remove('hidden')
+   dots[sl-1].classList.remove('bg-gray-800')
+}
 
 
 
 // slide end here 
+
+
+
+// contact validation part starts here
+
+
+let form = document.getElementById('form');
+username = document.getElementById('name').value;
+email = document.getElementById('email').value;
+message = document.getElementById('message').value;
+
+
+
+function validate(){
+    if (username.trim()  === '') {
+       
+        alert('Enter your name  ')
+        return false;
+    }
+    if (email.trim()  === '') {
+        alert('Enter email id ')
+        
+        return false;
+    }if (message.trim() === '') {
+        alert('enter your message ')
+        return false;
+    }else{
+        alert('thanks for your time ')
+        return true;
+    }
+}
+
+
+
+
+
+
+// contact validation part ends here 
